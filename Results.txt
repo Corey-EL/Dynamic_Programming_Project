@@ -1,0 +1,94 @@
+         Algorithm_Used   n      Value    Timer (ns)
+0   fibonacci_recursive   2          1         28500
+1   fibonacci_recursive   7         13         23200
+2   fibonacci_recursive  30     832040    1444239400
+3   fibonacci_recursive  10         55         90300
+4   fibonacci_recursive   0          0           900
+5   fibonacci_recursive   8         21         34400
+6   fibonacci_recursive  40  102334155  178613274400
+7    fibonacci_top_down   2          1         36800
+8    fibonacci_top_down   7         13         15100
+9    fibonacci_top_down  30     832040         51000
+10   fibonacci_top_down  10         55          1300
+11   fibonacci_top_down   0          0          1200
+12   fibonacci_top_down   8         21          1100
+13   fibonacci_top_down  40  102334155         19400
+14  fibonacci_bottom_up   2          1         45800
+15  fibonacci_bottom_up   7         13          8400
+16  fibonacci_bottom_up  30     832040         25400
+17  fibonacci_bottom_up  10         55          9300
+18  fibonacci_bottom_up   0          0          2200
+19  fibonacci_bottom_up   8         21          7700
+20  fibonacci_bottom_up  40  102334155         40800
+               Algorithm_Used            Matrix Dimensions Minimum number of multiplications Optimal parenthesization Timer (ns)
+0  MatrixChainOrder_recursive  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     435600
+1       MatrixChainOrder_memo  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     263100
+2     MatrixChainOrder_bottom  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     175400
+3  MatrixChainOrder_recursive         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)     146300
+4       MatrixChainOrder_memo         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)     127200
+5     MatrixChainOrder_bottom         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)      94300
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+        Algorithm_Used   n      Value    Timer (ns)
+0   fibonacci_recursive   2          1         36900
+1   fibonacci_recursive   7         13         24200
+2   fibonacci_recursive  30     832040    1624784300
+3   fibonacci_recursive  10         55        163600
+4   fibonacci_recursive   0          0          1400
+5   fibonacci_recursive   8         21         45400
+6   fibonacci_recursive  40  102334155  200079356900
+7    fibonacci_top_down   2          1         25900
+8    fibonacci_top_down   7         13         14300
+9    fibonacci_top_down  30     832040         53800
+10   fibonacci_top_down  10         55          1400
+11   fibonacci_top_down   0          0          1300
+12   fibonacci_top_down   8         21          1200
+13   fibonacci_top_down  40  102334155         22400
+14  fibonacci_bottom_up   2          1         24300
+15  fibonacci_bottom_up   7         13          5100
+16  fibonacci_bottom_up  30     832040         16600
+17  fibonacci_bottom_up  10         55          6100
+18  fibonacci_bottom_up   0          0          1300
+19  fibonacci_bottom_up   8         21          5100
+20  fibonacci_bottom_up  40  102334155         23900
+               Algorithm_Used            Matrix Dimensions Minimum number of multiplications Optimal parenthesization Timer (ns)
+0  MatrixChainOrder_recursive  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     500800
+1       MatrixChainOrder_memo  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     282900
+2     MatrixChainOrder_bottom  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     832300
+3  MatrixChainOrder_recursive         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)     113900
+4       MatrixChainOrder_memo         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)      91700
+5     MatrixChainOrder_bottom         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)      60400
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+         Algorithm_Used   n      Value    Timer (ns)
+0   fibonacci_recursive   2          1         56800
+1   fibonacci_recursive   7         13         35700
+2   fibonacci_recursive  30     832040    1613055500
+3   fibonacci_recursive  10         55         95000
+4   fibonacci_recursive   0          0           900
+5   fibonacci_recursive   8         21         36000
+6   fibonacci_recursive  40  102334155  199890653000
+7    fibonacci_top_down   2          1         20600
+8    fibonacci_top_down   7         13         10800
+9    fibonacci_top_down  30     832040         38400
+10   fibonacci_top_down  10         55           900
+11   fibonacci_top_down   0          0          1000
+12   fibonacci_top_down   8         21           800
+13   fibonacci_top_down  40  102334155         15700
+14  fibonacci_bottom_up   2          1         22600
+15  fibonacci_bottom_up   7         13          3900
+16  fibonacci_bottom_up  30     832040         11800
+17  fibonacci_bottom_up  10         55          4300
+18  fibonacci_bottom_up   0          0          1100
+19  fibonacci_bottom_up   8         21          3600
+20  fibonacci_bottom_up  40  102334155         19600
+               Algorithm_Used            Matrix Dimensions Minimum number of multiplications Optimal parenthesization Timer (ns)
+0  MatrixChainOrder_recursive  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     700500
+1       MatrixChainOrder_memo  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     346200
+2     MatrixChainOrder_bottom  [30, 35, 15, 5, 10, 20, 25]                             15125   ((A1(A2A3))((A4A5)A6))     250700
+3  MatrixChainOrder_recursive         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)     113200
+4       MatrixChainOrder_memo         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)      99800
+5     MatrixChainOrder_bottom         [2, 3, 10, 5, 4, 20]                               360       ((((A1A2)A3)A4)A5)      60700
